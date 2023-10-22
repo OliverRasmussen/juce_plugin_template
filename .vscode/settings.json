@@ -1,0 +1,7 @@
+{
+  "cmake.configureOnOpen": true,
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "[cpp]": {
+    "editor.formatOnSave": true
+  },
+}
