@@ -1,7 +1,22 @@
 {
-  "cmake.configureOnOpen": true,
   "C_Cpp.intelliSenseEngine": "disabled",
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.configureOnOpen": true,
+  "cmake.configureSettings": {
+      "CMAKE_EXPORT_COMPILE_COMMANDS": true,
+      "CMAKE_CXX_COMPILER": "/usr/bin/clang++",
+      "CMAKE_C_COMPILER": "/usr/bin/clang",
+      "CMAKE_GENERATOR": "Ninja",
+      "CMAKE_COLOR_DIAGNOSTICS": "ON"
+  },
+  "clangd.arguments": [
+      "--compile-commands-dir=${workspaceFolder}/build",
+      "--clang-tidy",
+      "--header-insertion=never",
+      "--query-driver=/usr/bin/clang++",
+      "--completion-style=detailed"
+  ],
   "[cpp]": {
-    "editor.formatOnSave": true
+      "editor.formatOnSave": true
   },
 }

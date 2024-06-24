@@ -47,7 +47,7 @@ IndentWidth: 4
 IndentWrappedFunctionNames: true
 KeepEmptyLinesAtTheStartOfBlocks: false
 Language: Cpp
-Standard: Cpp11
+Standard: "c++20"
 MaxEmptyLinesToKeep: 1
 FixNamespaceComments: false
 NamespaceIndentation: All

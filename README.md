@@ -1,5 +1,5 @@
-# JUCE Audio Plugin Template for VS Code
+# JUCE Plugin Template
 ___
 
 ## Description
-Minimalistic project template for creating audio plugins in VS Code with JUCE and CMake.
+A simple project template for creating a JUCE plugin in VS Code using the JUCE CMake API.
